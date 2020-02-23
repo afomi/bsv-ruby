@@ -1,5 +1,7 @@
 require "bundler/setup"
-require "bsv/ruby"
+
+require "bsv/private_key"
+require "bsv/version"
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure

@@ -1,8 +1,8 @@
-require "bsv/ruby/version"
-
 module Bsv
-  module Ruby
+  class PrivateKey
     class Error < StandardError; end
     # Your code goes here...
+    def initialize
+    end
   end
 end
